@@ -1,0 +1,6 @@
+main: me.thecamzone.problem5.Problem5
+name: Cams MunchyMC Test
+version: 0.0.1
+description: Listen to NMS packets
+api-version: 1.8
+author: TheCamZone
