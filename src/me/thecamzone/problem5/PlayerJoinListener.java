@@ -11,7 +11,7 @@ public class PlayerJoinListener implements Listener {
 	
 	/*
 	 * Overwrite ChannelDuplexHandler with custom class
-	 * Inject into pipeline
+	 * Inject player into pipeline
 	 */
 	@EventHandler
 	public void onPlayerConnect(PlayerJoinEvent e) {
@@ -26,7 +26,7 @@ public class PlayerJoinListener implements Listener {
 	}
 
 	/*
-	 * Remove custom ChannelDuplexHandler from pipeline
+	 * Remove custom ChannelDuplexHandler and player from pipeline
 	 */
 	@EventHandler
 	public void onPlayerLeave(PlayerQuitEvent e) {

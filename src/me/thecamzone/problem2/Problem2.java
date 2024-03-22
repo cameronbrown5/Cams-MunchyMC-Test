@@ -16,7 +16,8 @@ public class Problem2 {
 				.chars()
 				.mapToObj(e -> Character.valueOf((char) e))
 				.filter(character -> (character.charValue() != '!' && character.charValue() != '&'))
-				.filter(character -> (character.charValue() % 10 != 0)).sorted(Comparator.reverseOrder())
+				.filter(character -> (character.charValue() % 10 != 0))
+				.sorted(Comparator.reverseOrder())
 				.collect(Collectors.toList());
 	}
 }

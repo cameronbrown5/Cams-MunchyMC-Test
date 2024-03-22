@@ -2,7 +2,6 @@ package me.thecamzone.problem4;
 
 public class Printer<T, K> {
 	T object;
-
 	K otherObject;
 
 	public Printer(T object, K otherObject) {
@@ -11,7 +10,7 @@ public class Printer<T, K> {
 	}
 
 	public void print() {
-		System.out.println(this.object);
-		System.out.println(this.otherObject);
+		System.out.println(object);
+		System.out.println(otherObject);
 	}
 }
